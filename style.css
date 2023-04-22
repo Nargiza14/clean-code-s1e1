@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -12,12 +12,16 @@ body {
   text-align: right;
 }
 
-.matrix img {
+.matrix__img {
   width: 100%;
 }
 
 .matrix__link {
   font-family: fantasy, cursive;
+}
+
+.matrix h4 {
+  margin: 0;
 }
 
 @media (max-width: 768px) {
@@ -26,7 +30,7 @@ body {
   }
 }
 
-.main-content {
+.todo-content {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -69,6 +73,10 @@ button {
 
 button:hover {
   color: #3a3a3a;
+}
+
+.todo-list {
+  margin-top: 15px;
 }
 
 /* Heading */
